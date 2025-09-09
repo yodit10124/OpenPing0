@@ -1277,14 +1277,14 @@ include_once(__DIR__.'/utils.php');
                         经度
                     </div>
                     <div class="content">
-                        0.0                    </div>
+                        <?php echo $ip_longitude; ?>                    </div>
                 </div>
                 <div class="line">
                     <div class="name">
                         纬度
                     </div>
                     <div class="content">
-                        0.0                    </div>
+                        <?php echo $ip_latitude; ?>                    </div>
                 </div>
                                 <div class="line line-iptype">
                     <div class="name">
